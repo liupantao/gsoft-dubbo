@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.gsoft.framework</groupId>
+    <artifactId>gsoft-framework</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  
+  <groupId>com.gsoft.dubbo</groupId>
+  <artifactId>gsoft-dubbo</artifactId>
+  
+  <packaging>pom</packaging>
+  <name>gsoft-dubbo</name>
+  
+  <modules>
+  	<module>gsoft-dubbo-common</module>
+  	<module>gsoft-dubbo-core</module>
+  </modules>
+  
+  <properties>
+		<gsoft.version>0.0.1-SNAPSHOT</gsoft.version>
+		<dubbo.version>2.6.2</dubbo.version>
+	</properties>
+
+
+	<dependencyManagement>
+		<dependencies>
+
+			<!-- Dubbo -->
+			<dependency>
+				<groupId>com.alibaba</groupId>
+				<artifactId>dubbo</artifactId>
+				<version>${dubbo.version}</version>
+				<exclusions>
+					<exclusion>
+						<groupId>org.springframework</groupId>
+						<artifactId>spring</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>javax.servlet</groupId>
+						<artifactId>servlet-api</artifactId>
+					</exclusion>
+				</exclusions>
+			</dependency>
+			
+			<dependency>
+			    <groupId>com.alibaba</groupId>
+			    <artifactId>dubbo-serialization-fst</artifactId>
+			    <version>${dubbo.version}</version>
+			</dependency>
+
+		</dependencies>
+	</dependencyManagement>
+</project>
