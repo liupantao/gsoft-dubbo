@@ -1,1 +1,36 @@
+# Eclipse
+.metadata/
+*.settings/
+*.tmp
+*.project
+*.classpath
+
+# app测试代码
+/modules/app/
+
+## Locally stored "Eclipse launch configurations"
+*.launch
+
+# Java
+## Compiled class file
+*.class
+
+## Log file
+*.log
+*.log.*
+
+## Package files
+*.jar
+
+# Maven
+/target/.idea
+/modules/*/gsoftFileTmp/
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
 /target/
+/target/*
