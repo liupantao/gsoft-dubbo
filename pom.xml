@@ -8,7 +8,7 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent> 
   
-  <groupId>com.gsoft.dubbo</groupId>
+  <groupId>com.gsoft.dubbo</groupId> 
   <artifactId>gsoft-dubbo</artifactId>
   
   <packaging>pom</packaging>
