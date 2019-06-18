@@ -141,7 +141,15 @@ public class DubboController extends BaseDataController {
 		}
 		return paramsMap;
 	}
-
+   
+	/***
+	 * 文件上传
+	 * @param request
+	 * @param response
+	 * @param channel
+	 * @param params
+	 * @return
+	 */
 	private boolean uploadFiles(HttpServletRequest request, HttpServletResponse response, String channel,
 			Map<String, String[]> params) {
 		if (request instanceof MultipartHttpServletRequest) {

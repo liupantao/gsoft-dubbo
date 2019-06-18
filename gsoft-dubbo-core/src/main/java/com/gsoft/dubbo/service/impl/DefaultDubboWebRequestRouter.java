@@ -24,7 +24,7 @@ import com.gsoft.framework.remote.service.RemoteLog;
 
 /**
  * 
- * @author LiuPeng
+ * @author LiuPantao
  * 
  */
 public class DefaultDubboWebRequestRouter extends AbstractDubboWebRequestRouter implements ApplicationContextAware {

@@ -12,7 +12,7 @@ import com.gsoft.framework.util.SecurityUtils;
 
 /**
  * 
- * @author LiuPeng
+ * @author LiuPantao
  * 
  */
 public abstract class AbstractDubboWebRequestRouter extends AbstractDubboRouter implements DubboWebRequestRouter {

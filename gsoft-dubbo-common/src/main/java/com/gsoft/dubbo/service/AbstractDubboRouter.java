@@ -17,7 +17,7 @@ import com.gsoft.framework.util.IpUtils;
 
 /**
  * 
- * @author LiuPeng
+ * @author LiuPantao
  * 
  */
 public abstract class AbstractDubboRouter implements RemoteRequestRouter {
