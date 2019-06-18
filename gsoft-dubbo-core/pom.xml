@@ -5,7 +5,7 @@
   <parent>
     <groupId>com.gsoft.dubbo</groupId>
     <artifactId>gsoft-dubbo</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>2.0.1-SNAPSHOT</version>
   </parent>
   
   <artifactId>gsoft-dubbo-core</artifactId>
